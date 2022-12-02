@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>API REST</title>
+</head>
+
+<body>
+    <center>
+        <font color="teal">
+            <font face="Comic Sans MS,arial,verdana">
+                <h1>Nuevo Registro</h1>
+
+            </font>
+            <form action="/envioDeDatos" method="post">
+                <p> <label for="nombre">Nombre:</label></p>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <p><label for="apellido">Apellido:</label></p>
+                <input type="text" id="apellido" name="apellido"><br><br>
+
+                <p><label for="edad">Edad:</label></p>
+                <input type="text" id="edad" name="edad"><br><br>
+
+                <p><label for="id">ID:</label></p>
+                <input type="number" id="id" name="id"><br><br>
+                <p><button type="submit">Enviar</button></p>
+            </form>
+            <form action="/salir" method="get">
+                <button type="submit">Regresar</button>
+    </center>
+    </form>
+</body>
+
+</html>
